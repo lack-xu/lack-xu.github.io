@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Composite Structure Diagram with Collaboration", "EARoot/EA2/EA9.html", "182.png", "2", "0", "", "CompositeStructure diagram0","{C32E4E7F-8740-4614-9470-5FF31A86E135}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Occurrence A", "EARoot/EA2/EA12.html", "60.png", "E8", "0", "", "CollaborationOccurrence0","{C1C4497F-64A8-43e6-83A7-AEF616CC6CD3}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "Property A", "EARoot/EA2/EA13.html", "118.png", "E10", "0", "", "Part0","{E2F7AAFA-3B15-4fde-B369-46D09D468083}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "Property B", "EARoot/EA2/EA14.html", "118.png", "E9", "0", "", "Part0","{37E9CCC6-7DE4-4411-A942-9B2E6DA32F9C}");

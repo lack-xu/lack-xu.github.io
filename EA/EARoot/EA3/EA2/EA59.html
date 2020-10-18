@@ -13,7 +13,12 @@
     
 
     
-        <meta name="description" content="示例"/>
+        <meta name="description" content="Interfaces
+
+
+function initPage(src) {	
+	if(parent==this&amp;&amp;(this.location+&#34;&#34;).indexOf(&#39;EARoot&#39;)!=-1)
+		document.location=(this.location+&#34;&#34;).substring(0,"/>
     
 
     <!--Author-->
@@ -23,12 +28,17 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="小组作业02"/>
+        <meta property="og:title" content="需求分析06小组"/>
     
 
     <!--Open Graph Description-->
     
-        <meta property="og:description" content="示例"/>
+        <meta property="og:description" content="Interfaces
+
+
+function initPage(src) {	
+	if(parent==this&amp;&amp;(this.location+&#34;&#34;).indexOf(&#39;EARoot&#39;)!=-1)
+		document.location=(this.location+&#34;&#34;).substring(0,"/>
     
 
     <!--Open Graph Site Name-->
@@ -36,7 +46,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="article"/>
+        <meta property="og:type" content="website"/>
     
 
     <!--Page Cover-->
@@ -55,7 +65,7 @@
 
     <!-- Title -->
     
-    <title>小组作业02 - 需求分析06小组</title>
+    <title>需求分析06小组</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -159,7 +169,11 @@
 </nav>
 
     <!-- Main Content -->
-    <!-- Page Header -->
+    
+
+
+    <section class="main">
+        <!-- Page Header -->
 <!-- Set your background image for this header in your post front-matter: cover -->
 
 <header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
@@ -167,7 +181,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>小组作业02</h1>
+                    <h1>Untitled</h1>
                     
                     <span class="meta">
                         <!-- Date and Author -->
@@ -195,8 +209,85 @@
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p><a href="./source/EA/index.html">示例</a></p>
+                <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Interfaces</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
 
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA60.png" usemap="#EA60" border="0" />
+
+<MAP NAME="EA60">
+<area shape="rect" coords="308,10,427,130" href="EA63.html" target="_self">
+<area shape="rect" coords="159,10,278,130" href="EA64.html" target="_self">
+<area shape="rect" coords="10,10,129,130" href="EA62.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Interfaces : Component diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/10/18 16:01:40</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/10/18 16:01:40</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Ju-L</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{A00178E9-7F7F-48af-92EA-DDFC78AC83B4}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
 
                 
             </div>
@@ -212,6 +303,12 @@
         </div>
     </div>
 </article>
+    </section>
+
+
+
+
+
 
     <!-- Footer -->
     <hr />
